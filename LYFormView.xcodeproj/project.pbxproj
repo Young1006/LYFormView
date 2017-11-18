@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFE10BB1FB2C7D100A44144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE10BA1FB2C7D100A44144 /* AppDelegate.swift */; };
+		CDFE10BD1FB2C7D100A44144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE10BC1FB2C7D100A44144 /* ViewController.swift */; };
+		CDFE10C21FB2C7D100A44144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFE10C11FB2C7D100A44144 /* Assets.xcassets */; };
+		CDFE10C51FB2C7D100A44144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFE10C31FB2C7D100A44144 /* LaunchScreen.storyboard */; };
+		CDFE10CD1FB2C89600A44144 /* LYFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE10CC1FB2C89600A44144 /* LYFormView.swift */; };
+		CDFE10CF1FB3FFF800A44144 /* datas.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDFE10CE1FB3FFF800A44144 /* datas.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDFE10B71FB2C7D100A44144 /* LYFormView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYFormView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFE10BA1FB2C7D100A44144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDFE10BC1FB2C7D100A44144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDFE10C11FB2C7D100A44144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFE10C41FB2C7D100A44144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDFE10C61FB2C7D100A44144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFE10CC1FB2C89600A44144 /* LYFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYFormView.swift; sourceTree = "<group>"; };
+		CDFE10CE1FB3FFF800A44144 /* datas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = datas.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFE10B41FB2C7D100A44144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4F097D1FC03D5500AAC929 /* LYFormView */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE10CC1FB2C89600A44144 /* LYFormView.swift */,
+			);
+			path = LYFormView;
+			sourceTree = "<group>";
+		};
+		CDFE10AE1FB2C7D100A44144 = {
+			isa = PBXGroup;
+			children = (
+				CDFE10B91FB2C7D100A44144 /* LYFormView */,
+				CDFE10B81FB2C7D100A44144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFE10B81FB2C7D100A44144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE10B71FB2C7D100A44144 /* LYFormView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFE10B91FB2C7D100A44144 /* LYFormView */ = {
+			isa = PBXGroup;
+			children = (
+				CD4F097D1FC03D5500AAC929 /* LYFormView */,
+				CDFE10BA1FB2C7D100A44144 /* AppDelegate.swift */,
+				CDFE10BC1FB2C7D100A44144 /* ViewController.swift */,
+				CDFE10C11FB2C7D100A44144 /* Assets.xcassets */,
+				CDFE10C31FB2C7D100A44144 /* LaunchScreen.storyboard */,
+				CDFE10C61FB2C7D100A44144 /* Info.plist */,
+				CDFE10CE1FB3FFF800A44144 /* datas.plist */,
+			);
+			path = LYFormView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFE10B61FB2C7D100A44144 /* LYFormView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFE10C91FB2C7D100A44144 /* Build configuration list for PBXNativeTarget "LYFormView" */;
+			buildPhases = (
+				CDFE10B31FB2C7D100A44144 /* Sources */,
+				CDFE10B41FB2C7D100A44144 /* Frameworks */,
+				CDFE10B51FB2C7D100A44144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYFormView;
+			productName = LYFormView;
+			productReference = CDFE10B71FB2C7D100A44144 /* LYFormView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFE10AF1FB2C7D100A44144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = LiuYang;
+				TargetAttributes = {
+					CDFE10B61FB2C7D100A44144 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3EYQ4QY3T3;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDFE10B21FB2C7D100A44144 /* Build configuration list for PBXProject "LYFormView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFE10AE1FB2C7D100A44144;
+			productRefGroup = CDFE10B81FB2C7D100A44144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFE10B61FB2C7D100A44144 /* LYFormView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFE10B51FB2C7D100A44144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE10C51FB2C7D100A44144 /* LaunchScreen.storyboard in Resources */,
+				CDFE10CF1FB3FFF800A44144 /* datas.plist in Resources */,
+				CDFE10C21FB2C7D100A44144 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFE10B31FB2C7D100A44144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFE10BD1FB2C7D100A44144 /* ViewController.swift in Sources */,
+				CDFE10CD1FB2C89600A44144 /* LYFormView.swift in Sources */,
+				CDFE10BB1FB2C7D100A44144 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDFE10C31FB2C7D100A44144 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFE10C41FB2C7D100A44144 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFE10C71FB2C7D100A44144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFE10C81FB2C7D100A44144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFE10CA1FB2C7D100A44144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EYQ4QY3T3;
+				INFOPLIST_FILE = LYFormView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ledou.LYFormView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CDFE10CB1FB2C7D100A44144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EYQ4QY3T3;
+				INFOPLIST_FILE = LYFormView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ledou.LYFormView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFE10B21FB2C7D100A44144 /* Build configuration list for PBXProject "LYFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFE10C71FB2C7D100A44144 /* Debug */,
+				CDFE10C81FB2C7D100A44144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFE10C91FB2C7D100A44144 /* Build configuration list for PBXNativeTarget "LYFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFE10CA1FB2C7D100A44144 /* Debug */,
+				CDFE10CB1FB2C7D100A44144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFE10AF1FB2C7D100A44144 /* Project object */;
+}
